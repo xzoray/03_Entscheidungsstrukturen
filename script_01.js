@@ -5,7 +5,7 @@
 // Deklaration + Assignment
 
 const ageJohn = 20;
-const ageMark = 18;
+const ageMark = 20;
 
 // Deklaration
 let isJohnOlder, isJohnEqual;
@@ -41,7 +41,14 @@ if (isJohnOlder)
 {
     console.log("John ist älter!");
 }
+else if (isJohnEqual) 
+{
+    console.log("beide gleich alt!");
+}
 else 
 {
     console.log("John ist jünger!");
 }
+
+/************ Ternäre (ternary) Schreibweise ************/ 
+// console.log( (isJohnOlder) ? "John is older" : "Mark is older");
